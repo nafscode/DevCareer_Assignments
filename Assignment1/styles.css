@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 1em;
+}
+
+/* Default styles for all devices */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    height: 50px;
+}
+
+th, td {
+    padding: 10px;
+}
+td {
+    text-align: left;
+}
+
+th {
+    background-color: #ea7b7b;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+tr:nth-child(even) {
+    background-color: hsla(0, 73%, 70%, 0.443);
+}
+
+/* X-small devices (None <576px) */
+@media (max-width: 575px) {
+    th, td {
+        padding: 5px;
+    }
+}
+
+/* Small devices (sm ≥576px) */
+@media (min-width: 576px) {
+    th, td {
+        padding: 8px;
+    }
+}

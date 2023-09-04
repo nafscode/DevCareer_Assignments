@@ -1,0 +1,1 @@
+### Build a well responsive table with 20 records.
